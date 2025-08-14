@@ -1,0 +1,98 @@
+@font-face{
+  font-family: vazir;
+  src: url("/storage/emulated/0/web program/Vazirmatn-font-face.css");
+  src: url(/storage/emulated/0/web program/Vazirmatn-font-face.css);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "vazir"; 
+  background-color: lightgray;
+  height: auto;
+  
+
+}
+section{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header{
+    background-color: #2c3e50;
+    padding: 35px 0;
+}
+main{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+}
+h1{
+
+    text-align: center;
+}
+.imagesection{
+
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.imagesection div{
+    width: 250px;
+    height: 200px;
+    border: solid 0.5px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.imagesection div img,p,h3,button{
+    margin-top: 15px;
+}
+.imagesection p{
+    color: red;
+}
+footer{
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  
+}
+button{
+  background-color: #2ecc71; 
+  color: white;
+  border: none;
+  box-shadow: 0px 4px 8px black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: inherit;
+  transition: all 0.5s;
+}
+button:hover{
+    transform: translate(20px , 20px);
+}
+.imagesection div:hover{
+    transform: scale(1.1);
+}
+.imagesection img{
+  max-width: 75%;
+  height: auto;
+  border-radius: 8px;
+  max-height: 200px;
+}
